@@ -16,7 +16,7 @@
     "README.md": {
       "classification": "original_omh",
       "license": "MIT",
-      "local_sha256": "639495d48ce2c1da710f4a0673fd3365cff00f61ce084434eabbc41fa4fc9c43",
+      "local_sha256": "c59075b09e6a79d8ff18d22757e004b41fa9d320b2bdc6b42a3ea121936405f5",
       "modification_notice": "Original OMH companion guidance/helper/example",
       "upstream": []
     },
@@ -255,8 +255,8 @@
     "scripts/render.mjs": {
       "classification": "modified_derivative",
       "license": "MIT",
-      "local_sha256": "8630c8e6eea113d888dbb9df820cc1fa48e2a25303efbbb8d323a4cb3acc3bec",
-      "modification_notice": "Puppeteer adapter with a realpath allowlist server; keeps upstream --scale/--sub/--shutter/--crf 16/--preset/--from/--to/--every; serial capture piped to FFmpeg; project.json cuts keep sub-frame samples inside each shot",
+      "local_sha256": "46c6fee6e49e9ccbfb022414e448642f58d3ae24d0b293b4dcf153d6b7c51acd",
+      "modification_notice": "Puppeteer adapter with a realpath allowlist server; keeps upstream --scale/--sub/--shutter/--crf 16/--preset/--from/--to/--every; serial capture piped to FFmpeg with frame-clock throttling off; project.json cuts keep sub-frame samples inside each shot",
       "upstream": [
         {
           "path": "scripts/render.mjs",
